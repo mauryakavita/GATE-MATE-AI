@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Maths Teacher made by Kavita Maurya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>I'm Your Virtual Maths Teacher</h1>
+
+    <div class="upload-image">
+
+        <div class="inner-upload-image">
+            <input type="file" hidden>
+            <img src="" alt="" id="image">
+            <img src="plus.svg" alt="Upload Image" id="icon" />
+            <span>Upload Image</span>
+
+        </div>
+
+
+        <button>Answer</button>
+    </div>
+    <img src="loading-gif.webp" alt="" id="loading">
+    <div class="output">
+
+        <pre id="text"></pre>
+    </div>
+    <!-- <button>Answer</button> -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAK9Znr_UrKn9RpK7ofrYWRVunorc7VJ-Q",
+    authDomain: "gateprep-ai-79ba8.firebaseapp.com",
+    projectId: "gateprep-ai-79ba8",
+    storageBucket: "gateprep-ai-79ba8.firebasestorage.app",
+    messagingSenderId: "124431771601",
+    appId: "1:124431771601:web:b4f515859d8ad8f26ee2f0",
+    measurementId: "G-Q965ZXVEJ5"
+  };
+  
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const provider = new GoogleAuthProvider();
+
+  onAuthStateChanged(auth, (user) => {
+    if (!user) {
+      // Login nahi hai to direct Google popup khol do
+      signInWithPopup(auth, provider)
+        .then((result) => {
+          console.log("Login success:", result.user.email);
+        })
+        .catch((error) => {
+          console.error("Login failed:", error);
+          alert("Login failed. Page refresh karke dobara try karo.");
+        });
+    } else {
+      console.log("Already logged in:", user.email);
+    }
+  });
+</script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
