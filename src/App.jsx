@@ -4,7 +4,7 @@
 
 
 import { AuthProvider, useAuth } from "./context/AuthContext";
-import Login from "./components/login";
+import Login from "./components/Login";
 
 
 
