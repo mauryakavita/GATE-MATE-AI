@@ -41,12 +41,11 @@ Use Firebase CLI:
 
 An AI-powered GATE preparation assistant with Google login, personalized dashboard, and intelligent question answering from uploaded images.
 
-## 🚀 Features
-- **Login by Google** for secure authentication
-- **Dashboard** to track GATE preparation progress
-- **Prep Tracker** for monitoring study goals
-- **AI Q&A**: Upload GATE question images and get instant answers
-
+## ✨ Features
+- **Login by Google** for secure authentication  
+- **Personal Dashboard** to track your GATE preparation journey  
+- **Prep Tracker** to monitor subjects, topics, and progress  
+- **AI Q&A**: Upload GATE question images and get instant, accurate answers 
 ## 📦 Installation
 1. Clone the repository:
    ```bash
