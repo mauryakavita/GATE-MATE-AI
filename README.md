@@ -96,6 +96,19 @@ Upload past year GATE questions as images and get AI-powered solutions
 Use the prep tracker to stay consistent and exam-ready
 
 
+## Screenshots
+
+### Login Page
+![Login Screenshot](images/login.png)
+
+### Dashboard
+![Dashboard Screenshot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/public/Screenshot_29-6-2026_122822_gatepreptracker.netlify.app.jpeg)
+
+### AI Q&A
+![AI Answer Screenshot](images/ai-answer.png)
+
+
+
 
 
 
