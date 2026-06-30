@@ -20,7 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-# My Firebase Project
+# My Fullstack Project
 
 A simple Firebase-based web app for [GATE aspirents].
 
@@ -29,7 +29,7 @@ A simple Firebase-based web app for [GATE aspirents].
 2. Run `npm install`
 3. Add your Firebase config in `.env`
 
-## Deployment
+
 Use Firebase CLI:
 
 
