@@ -102,7 +102,12 @@ function AppContent() {
           style={{ flex: 1, padding: '12px', borderRadius: '6px', border: 'none', fontSize: '15px', backgroundColor: '#1e293b', color: '#fff' }}
         />
         <button onClick={handleAddSubject} style={{ padding: '12px 24px', backgroundColor: '#38bdf8', color: '#000', border: 'none', borderRadius: '6px', cursor: 'pointer', fontWeight: 'bold' }}>Add Subject</button>
+       <button onClick={() => window.open('https://chat.openai.com', '_blank')}
+  style={{ padding: '12px 24px', backgroundColor: '#10a37f', color: 'white', border: 'none', borderRadius: '8px', fontSize: '15px', marginTop: '15px', width: '100%', cursor: 'pointer' }}>
+  Ask Your MATE-AI for GATE Help
+</button>
       </div>
+     
 {/* सेक्शन 3: सब्जेक्ट्स ट्रैकिंग लिस्ट */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
         {subjects.map((sub) => (
