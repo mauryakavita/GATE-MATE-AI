@@ -3,7 +3,8 @@
 
 
 
-import { AuthProvider, useAuth } from "./context/AuthContext";
+import { AuthProvider } from "./context/AuthContext";
+import { useAuth } from "./context/useAuth";
 import Login from "./components/Login.jsx";
 
 
@@ -13,7 +14,6 @@ import Login from "./components/Login.jsx";
 
 function AppContent() {
   const { user } = useAuth();
- if (!user) return <Login />;
 
   // --- 1. GATE Subjects State (LocalStorage से लोड करना) ---
   const [subjects, setSubjects] = useState(() => {
@@ -46,6 +46,8 @@ function AppContent() {
   useEffect(() => {
     localStorage.setItem("gate_flt", fltCount.toString());
   }, [fltCount]);
+
+  if (!user) return <Login />;
 
   // नया सब्जेक्ट जोड़ने का फंक्शन
   const handleAddSubject = () => {
