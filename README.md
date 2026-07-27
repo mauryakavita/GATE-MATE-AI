@@ -98,12 +98,13 @@ Use the prep tracker to stay consistent and exam-ready
 ## Screenshots
 
 ### Login & Sign up
+![Login &Sign up  Screenshot ](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/login.jpg)
 
 ### Dashboard
 ![Dashboard Screenshot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/public/Screenshot_29-6-2026_122822_gatepreptracker.netlify.app.jpeg)
 
 ### AI Q&A
-[AI Chat Bot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/AIChatbot--gatemateai.netlify.app.jpeg)
+![AI Chat Bot  Screenshot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/AIChatbot--gatemateai.netlify.app.jpeg)
 
 
 
