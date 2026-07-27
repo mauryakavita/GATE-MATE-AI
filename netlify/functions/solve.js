@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: "llama-3.2-90b-vision-preview", // Vision model ye hai
+        model: "llama-3.2-11b-vision-preview", // Vision model ye hai
         messages: [{
           role: "user",
           content: [
