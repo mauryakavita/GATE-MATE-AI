@@ -103,7 +103,7 @@ Use the prep tracker to stay consistent and exam-ready
 ![Dashboard Screenshot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/public/Screenshot_29-6-2026_122822_gatepreptracker.netlify.app.jpeg)
 
 ### AI Q&A
-![AI Answer Screenshot](https://github.com/mauryakavita/GATE-MATE-AI/blob/main/public/Screenshot_29-6-2026_132647_127.0.0.1.jpeg?raw=true)
+
 
 
 
